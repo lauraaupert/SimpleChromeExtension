@@ -1,4 +1,4 @@
-var photos = [ photoUrl,
+var photos = [
     "https://static.boredpanda.com/blog/wp-content/uploads/2017/06/59561066699cf_Rc7GiRs__700.jpg",
     "https://static.boredpanda.com/blog/wp-content/uploads/2017/06/adorable-cute-raccoons-68-595642de22445__700.jpg",
     "https://static.boredpanda.com/blog/wp-content/uploads/2017/06/59563c8d5e2dd__700.jpg",
@@ -17,14 +17,15 @@ var image = $('<img>').attr("src", photoUrl).attr("style", "height: 500px")
 
 content.remove();
 
-contentParent.prepend('<div>').addClass("beautText").text("Remember what you live for").append("<br>").append(image)
+contentParent.prepend('<div>').addClass("beautText").text("Remember the reward!").append("<br>").append(image)
 
 image.on("click", function() {
     if (imgCount < photos.length) {
         imgCount += 1
-    } else {
+    } else if (imgCount === photos.length) {
         imgCount = 0;
     }
+    console.log(imgCount)
     image.attr("src", photos[imgCount])
 })
 
