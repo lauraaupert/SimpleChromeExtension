@@ -6,7 +6,9 @@ var photos = [
     "https://static.boredpanda.com/blog/wp-content/uploads/2017/06/adorable-cute-raccoons-52-59561ef26a4a2__700.gif",
     "https://static.boredpanda.com/blog/wp-content/uploads/2017/06/adorable-cute-raccoons-6-595639c4ec755__700.jpg",
     "https://static.boredpanda.com/blog/wp-content/uploads/2017/06/adorable-cute-raccoons-52-595632e9a3c3e__700.jpg",
-    "https://static.scientificamerican.com/sciam/cache/file/0B4ED7B8-6C6A-4031-BEE1253D115FD0CC_source.jpg?w=590&h=800&9717A2E2-EE9D-4CD5-A52BB4E3ED51CBF4"
+    "https://static.scientificamerican.com/sciam/cache/file/0B4ED7B8-6C6A-4031-BEE1253D115FD0CC_source.jpg?w=590&h=800&9717A2E2-EE9D-4CD5-A52BB4E3ED51CBF4",
+    "https://static.boredpanda.com/blog/wp-content/uploads/2017/06/59563b66eab97_wAFCcY4__700.jpg",
+    "https://static.boredpanda.com/blog/wp-content/uploads/2017/06/595611f8735b7_FyD2aBW__700.jpg",
 ]
 var imgCount = 0;
 var content = $("#primary-inner");
